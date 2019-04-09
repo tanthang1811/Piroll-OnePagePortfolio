@@ -1,6 +1,6 @@
 @media (min-width:768px) and (max-width: 1024px) {
     .navigator .main-nav {
-        width: 85%;
+        width: 90%;
     }
     .header-title .header-desc {
         width: 80%;
@@ -15,9 +15,38 @@
 }
 
 @media (min-width:320px) and (max-width: 768px) {
-    .navigator .header-logo {
-        width: 100%;
+    .progress-info,
+    .progress-img,
+    .process-item,
+    #process .process-container,
+    .work-showcase-content ul,
+    .work-showcase-content ul li,
+    .service-box,
+    .contact-form,
+    footer .container ul,
+    footer .container {
         display: block;
+        width: 100%;
+    }
+    footer .container ul {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 1px solid #Fff;
+    }
+    .header-title .header-desc {
+        width: 80%;
+        padding-right: 0;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-title .header-desc a {
+        margin: 0 auto;
+    }
+    .navigator .header-logo {
+        width: 10%;
+        display: inline-block;
+        vertical-align: middle;
     }
     .navigator .header-logo img {
         display: block;
@@ -28,7 +57,33 @@
         margin: 0 auto;
         width: 100%;
         text-align: left;
+        height: 0;
+        overflow: hidden;
+    }
+    .navigator .main-nav.expand {
+        height: auto;
+    }
+    .navigator .main-nav nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #000;
+    }
+    .hamburger {
+        width: 85%;
+        display: inline-block;
+        font-size: 30px;
+        text-align: right;
+        vertical-align: middle;
+    }
+    .hamburger i {
+        cursor: pointer;
+    }
+    .process-video-container {
+        min-height: 300px;
+    }
+    .slider-nav {
+        left: 40%;
     }
 }
-
-;

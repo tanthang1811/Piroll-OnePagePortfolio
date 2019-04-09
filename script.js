@@ -44,3 +44,17 @@ $(function() {
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 });
+
+/*Toggle nav bar */
+const hamburger = document.querySelector(".hamburger i");
+const navBar = document.querySelector(".navigator .main-nav");
+const mainNav = document.querySelector(".navigator");
+hamburger.addEventListener("click", (e) => {
+    if (navBar.classList.contains("expand")) {
+        navBar.classList.remove("expand");
+        mainNav.classList.remove("scrolled");
+    } else {
+        navBar.classList.add("expand");
+        mainNav.classList.add("scrolled");
+    }
+});

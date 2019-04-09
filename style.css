@@ -63,6 +63,10 @@ header {
     transition: background-color 200ms linear;
 }
 
+.hamburger {
+    display: none;
+}
+
 .navigator.scrolled {
     background-color: #FFF !important;
     transition: background-color 200ms linear;
@@ -370,7 +374,7 @@ header {
 
 .process-video-container iframe {
     width: 100%;
-    min-height: 600px;
+    min-height: inherit;
 }
 
 #thumbnail {
