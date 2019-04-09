@@ -54,7 +54,6 @@
     }
     .navigator .main-nav {
         display: block;
-        margin: 0 auto;
         width: 100%;
         text-align: left;
         height: 0;
@@ -71,7 +70,7 @@
         border-bottom: 1px solid #000;
     }
     .hamburger {
-        width: 85%;
+        width: 80%;
         display: inline-block;
         font-size: 30px;
         text-align: right;
