@@ -80,8 +80,14 @@ header {
     text-align: left;
 }
 
-.navigator .header-logo img {
+.navigator .header-logo img.shrink {
     width: 100px;
+    transition: width 0.2s linear 0s;
+}
+
+.navigator .header-logo img {
+    width: 150px;
+    transition: width 0.2s linear 0s;
 }
 
 .navigator .main-nav {

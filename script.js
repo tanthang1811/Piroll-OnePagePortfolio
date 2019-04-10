@@ -42,6 +42,8 @@ $(function() {
     $(document).scroll(function() {
         var $nav = $("#nav");
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        var $logo = $(".navigator .header-logo img");
+        $logo.toggleClass('shrink', $(this).scrollTop() > $nav.height());
     });
 });
 
